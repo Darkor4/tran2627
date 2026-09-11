@@ -20,6 +20,10 @@
       body > * {
         background-color: #141414;
         border: 1px solid #3a3a3e;
+        -webkit-user-select: none; /* Safari and iOS */
+        -moz-user-select: none;    /* Firefox (older versions) */
+        -ms-user-select: none;     /* Internet Explorer/Edge */
+        user-select: none;         /* Standard syntax for modern browsers */
       }
 
       body > *:not(nav) {
