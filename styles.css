@@ -7,6 +7,10 @@
         background-color: #1b1b1e;
         color: #e0e0e0;
         padding: 5px;
+        -webkit-user-select: none; /* Safari and iOS */
+        -moz-user-select: none;    /* Firefox (older versions) */
+        -ms-user-select: none;     /* Internet Explorer/Edge */
+        user-select: none;         /* Standard syntax for modern browsers */
       }
       ol {
         padding-left: 40px !important;
