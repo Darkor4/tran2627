@@ -58,6 +58,15 @@
       section * {
         margin-right: auto;
       }
+      body {
+        grid-template-columns: 1fr, 1fr;
+      }
+      section:nth-child(even) {
+        grid-column: 1, 2;
+      }
+      section:nth-child(odd) {
+        grid-column: 2, 3;
+      }
     </style>
   </head>
 
