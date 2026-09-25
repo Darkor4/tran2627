@@ -59,13 +59,13 @@
         margin-right: auto;
       }
       main > div {
-        grid-template-columns: 1fr, 1fr;
+        grid-template-columns: 1fr 1fr;
         display: grid;
       }
-      section:nth-child(even) {
+      div > section:nth-child(even) {
         grid-column: 1 / 2;
       }
-      section:nth-child(odd) {
+      div > section:nth-child(odd) {
         grid-column: 2 / 3;
       }
     </style>
